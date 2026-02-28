@@ -43,7 +43,7 @@ Since CactusViewer is distributed as a standalone portable executable, users typ
 
 ### Prerequisites
 - Windows 10/11 (x64)
-- CactusViewer v2.3.0 (https://github.com/Wassimulator/CactusViewer/releases/tag/2.3.0)
+- CactusViewer v2.3.0 (https://github.com/Wassimulator/CactusViewer/releases/download/v2.3.0/CactusViewer.exe)
 - Sysinternals Process Monitor (for verification)
 
 ### Reproduce the Vulnerability
