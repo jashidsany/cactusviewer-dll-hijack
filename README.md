@@ -34,7 +34,7 @@ x86_64-w64-mingw32-gcc poc.c -shared -o D3DCOMPILER_47.dll
 
 ### Reproduce
 
-1. Download [CactusViewer v2.3.0](https://github.com/Wassimulator/CactusViewer/releases/tag/2.3.0)
+1. Download [CactusViewer v2.3.0](https://github.com/Wassimulator/CactusViewer/releases/download/v2.3.0/CactusViewer.exe)
 2. Place the compiled `D3DCOMPILER_47.dll` in the same directory as `CactusViewer.exe`
 3. Launch `CactusViewer.exe`
 4. Observe the MessageBox confirming arbitrary code execution
