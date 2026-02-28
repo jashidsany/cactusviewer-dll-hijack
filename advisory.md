@@ -109,10 +109,24 @@ An attacker can achieve arbitrary code execution in the context of the current u
 
 Screenshots provided:
 1. `01_procmon_missing_dlls.png` - Process Monitor showing 6 missing DLLs from the application directory
+
+<img width="2743" height="1253" alt="01_procmon_missing_dlls" src="https://github.com/user-attachments/assets/bf607948-db6c-4f15-8e33-d3700845a46b" />
+
 2. `02_dll_placed_in_app_directory.png` - Malicious DLL placed alongside the application
+
+<img width="1087" height="404" alt="02_dll_placed_in_app_directory" src="https://github.com/user-attachments/assets/3b12ce0a-f2ab-44d3-83ae-c3e95bd16d13" />
+
 3. `03_poc_code_execution.png` - MessageBox confirming arbitrary code execution
+
+<img width="920" height="467" alt="03_poc_code_execution" src="https://github.com/user-attachments/assets/72b04670-ca08-439a-85d1-e450c3f21a99" />
+
 4. `04_procmon_dll_loaded_success.png` - Process Monitor confirming successful load of the malicious DLL
+
+<img width="2463" height="1141" alt="04_procmon_dll_loaded_success" src="https://github.com/user-attachments/assets/fd4bf182-3c1d-4aab-9294-2bceb6222e6e" />
+
 5. `05_knowndlls_registry.png` - KnownDLLs registry confirming affected DLLs are not protected
+
+<img width="1194" height="577" alt="05_knowndlls_registry" src="https://github.com/user-attachments/assets/0121d128-56a9-4a14-b656-7dee301e0d9b" />
 
 ## Timeline
 
